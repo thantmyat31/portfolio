@@ -1,0 +1,37 @@
+.services {
+    padding:20px;
+    background: linear-gradient(to right, #b0a3b5, #4c245d);
+}
+
+.services .row {
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.services .img-serv {
+    border:1px solid #cdcdcd;
+    border-radius:5px;
+}
+
+.services h3 {
+    font-size:1.3rem;
+    color:#ffffff;
+    text-align:center;
+}
+
+.services p {
+    font-size:0.8rem;
+    color:#cccccc;
+    text-align:justify;
+}
+
+@media screen and (max-width:767px) {
+    .services {
+        width:100%;
+        padding-top:75px;
+    }
+
+    .services .img-serv {
+        margin-bottom:15px;
+    }
+}

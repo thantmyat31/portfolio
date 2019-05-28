@@ -1,0 +1,23 @@
+.top-navbar {
+    position:fixed;
+    top:0;
+    width:100%;
+    left:0;
+    z-index:1;
+    background:#271c2b !important;
+    box-shadow:0 3px 13px -5px rgba(0,0,0,.4);
+}
+
+.top-navbar button.navbar-toggler {
+    border:none;
+}
+
+.top-navbar button.navbar-toggler:focus {
+    outline: none;
+}
+
+.nav-link {   
+    text-transform:uppercase;
+    display:block;
+    text-align:center;
+}

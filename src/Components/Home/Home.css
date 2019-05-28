@@ -1,0 +1,49 @@
+.home {
+    padding:20px;
+    background:linear-gradient(to right, #b0a3b5, #4c245d);
+    height:100%;
+    overflow:auto;
+}
+
+
+.home::-webkit-scrollbar {
+    width:5px;
+}
+
+.home::-webkit-scrollbar-track {
+    background:#F3F4F8;
+}
+
+.home::-webkit-scrollbar-thumb {
+  background:#e6e6e6;
+}
+
+.home .exp {
+    margin-top:70px;
+    text-align:center;
+}
+
+.home .exp h3 {
+    font-size:70px;
+    color:#ffffff;
+    font-family:'bad script', cursive;
+}
+
+.home .exp h3 .fas {
+    font-size:30px;
+}
+
+.home .exp p {
+    font-size:0.9em;
+    color:#3c3c3c;
+    padding-top:20px;
+    color:#ffffff;
+    font-family: 'PT Sans', sans-serif;
+}
+
+@media screen and (max-width:767px) {
+    .home {
+        width:100%;
+        padding-top:55px;
+    }
+}

@@ -1,0 +1,119 @@
+.contact {
+    padding:20px;
+    background:#dee6e6;
+    height:100%;
+    overflow:auto;
+}
+
+.contact::-webkit-scrollbar {
+    width:5px;
+}
+
+.contact::-webkit-scrollbar-track {
+    background:#F3F4F8;
+}
+
+.contact::-webkit-scrollbar-thumb {
+  background:#e6e6e6;
+}
+
+.contact .contact-form {
+    background:#f3f3f3;
+    padding:20px;
+}
+
+.contact .contact-form .form-control {
+    border:none;
+    border-radius:0;
+    resize:none;
+}
+
+.contact .contact-form .submit-btn {
+    background:#271C2B;
+    color:#ffffff;
+    text-transform:uppercase;
+    border-radius:0;
+    border:1px solid #ffffff;
+    margin-top:23px;
+}
+
+.contact .contact-form .submit-btn:hover,
+.contact .contact-form .submit-btn:focus,
+.contact .contact-form .submit-btn:active {
+    border:1px solid #271C2B;
+    background:#ffffff;
+    color:#271C2B;
+    box-shadow:none;
+}
+
+.contact .contact-hour {
+    background:#271C2B;
+    color:#ffffff;
+    padding:20px;
+    border-radius:0 10px 0 0;
+}
+
+.contact .contact-hour .fa-clock {
+    font-size:30px;
+    padding-right:15px;
+    color:#f3f3f3;
+    display:inline-block;
+    position:relative;
+    top:-3px;
+}
+
+.contact .contact-hour b {
+    line-height:18px;
+    display:block;
+    color:#8bdbff;
+}
+
+.contact .contact-hour small {
+    line-height:18px;
+    display:block;
+    color:#bbbbbb;
+}
+
+.contact .contact-info {
+    margin-top:10px;
+    padding:20px;
+    background:#f3f3f3;
+}
+
+.contact .contact-info .fas,
+.contact .contact-info .far {
+    font-size:30px;
+    padding-right:15px;
+    color:#EB6126;
+    display:inline-block;
+    position:relative;
+    bottom:-5px;
+}
+
+.contact .contact-info b {
+    line-height:36px;
+    font-size:0.95rem;
+}
+
+.contact .contact-info .social-wrapper {
+    margin:50px 0 0 0;
+}
+
+.contact .contact-info .social-wrapper .fa-instagram {
+    color:#000000;
+}
+
+.contact .map-col {
+    margin-top:30px;
+}
+
+@media screen and (max-width:767px) {
+    .contact {
+        width:100%;
+        padding-top:75px;
+    }
+
+    .contact .contact-form {
+        margin-top:10px;
+    }
+}

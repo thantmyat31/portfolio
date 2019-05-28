@@ -1,0 +1,22 @@
+.skills {
+    padding:20px;
+    background:linear-gradient(to right, #b0a3b5, #4c245d);
+    text-align:center;
+}
+
+.skills h3 {
+    margin-top:30px;
+    color:#ffffff;
+    letter-spacing:2px;
+}
+
+.skills ul {
+    list-style:none;
+    margin:20px 0 40px;
+}
+
+.skills ul li {
+    padding-bottom:10px;
+    color:#cccccc;
+    letter-spacing:0.8px;
+}
