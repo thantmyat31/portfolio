@@ -21,7 +21,7 @@ class Contact extends Component {
                                     <Form.Group>
                                         <Form.Control size="small" as="textarea" rows="3" placeholder="Your Message" />
                                     </Form.Group>
-                                    <Button variant="default" className="submit-btn" type="submit" block>
+                                    <Button variant="default" className="submit-btn" type="button" block>
                                     Send Message
                                     </Button>
                                 </Form>

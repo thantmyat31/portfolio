@@ -26,7 +26,7 @@ class App extends Component {
                   <Route path="/skills" component={ Skills } />
                   <Route path="/contact" component={ Contact } />
                   <Route path="/notfound" component={ NotFound } />
-                  <Redirect from="/*" to="/notfound" />
+                  <Redirect to="/notfound" />
                 </Switch>
               </Col>
             </Row>
