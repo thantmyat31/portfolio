@@ -38,11 +38,11 @@ class Contact extends Component {
                             <div className="contact-info">
                                 <span className="d-block">
                                     <i className="fas fa-phone"></i>
-                                    <b>0912345678</b>
+                                    <b>09425331210</b>
                                 </span>
                                 <span className="d-block">
                                     <i className="far fa-envelope"></i>
-                                    <b>contact@thantmyat.io</b>
+                                    <b>thantmyat1234@gmail.com</b>
                                 </span>
                                 <div className="social-wrapper">
                                     <a href="http://www.facebook.com" target="_blank" rel="noopener noreferrer">

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom';
 import { Container, Row, Col } from 'react-bootstrap';
 import Home from './Components/Home/Home';
 import Navigation from './Components/Navigation/Navigation';
@@ -25,7 +25,8 @@ class App extends Component {
                   <Route path="/services" component={ Services } />
                   <Route path="/skills" component={ Skills } />
                   <Route path="/contact" component={ Contact } />
-                  <Route path="" component={ NotFound } />
+                  <Route path="/notfound" component={ NotFound } />
+                  <Redirect from="/*" to="/notfound" />
                 </Switch>
               </Col>
             </Row>
