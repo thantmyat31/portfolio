@@ -1,5 +1,5 @@
 {
-  "name": "app-2",
+  "name": "Portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -18,7 +18,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://portfolio-32.herokuapp.com",
   "eslintConfig": {
     "extends": "react-app"
   },

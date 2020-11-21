@@ -9,5 +9,5 @@ app.get('*', function(req, res) {
 });
 
 app.listen(process.env.PORT || 9000, function() {
-  console.log('Localhost running on Port 9000');
+  console.log('Project is running on http://localhost:9000');
 });
