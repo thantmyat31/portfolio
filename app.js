@@ -9,5 +9,10 @@ app.get('*', function(req, res) {
 });
 
 app.listen(process.env.PORT || 9000, function() {
+<<<<<<< HEAD
 	console.log('App is running on http://locahost:9000');
 });
+=======
+  console.log('Project is running on http://localhost:9000');
+});
+>>>>>>> fc42f3d18f6e3284179c614287c0e15635254bde
